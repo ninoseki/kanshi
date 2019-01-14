@@ -10,7 +10,7 @@ Certificate Transparency (CT) logs monitoring with a regex.
 
 kanshi monitors CT log stream via [CaliDog/certstream-server](https://github.com/CaliDog/certstream-server).
 
-It outputs a notification if there is a certificate that has a Common Name which matches with a given regex.
+It outputs a notification if there is a certificate that has domain(s) which matches with a given regex.
 
 ## Prerequisite
 
@@ -72,23 +72,5 @@ $ mix run --no-halt
     "www.greenapplesinvest.co.za"
   ]
 }
-
-04:59:25.289 [info]  {
-  "source": {
-    "url": "ct.googleapis.com/skydiver/",
-    "name": "Google 'Skydiver' log"
-  },
-  "seen": 1547495954.907261,
-  "cert_index": 93463165,
-  "all_domains": [
-    "cpanel.greenapplesinvest.co.za",
-    "greenapplesinvest.co.za",
-    "mail.greenapplesinvest.co.za",
-    "webdisk.greenapplesinvest.co.za",
-    "webmail.greenapplesinvest.co.za",
-    "www.greenapplesinvest.co.za"
-  ]
-}
-
-04:59:25.289 [info]  Notified.
+...
 ```
