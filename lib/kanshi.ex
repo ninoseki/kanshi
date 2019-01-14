@@ -1,0 +1,2 @@
+defmodule Kanshi do
+end
