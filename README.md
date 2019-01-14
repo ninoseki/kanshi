@@ -1,6 +1,6 @@
 # kanshi
 
-[![Build Status](https://travis-ci.org/ninoseki/kanshi.svg?branch=master)](https://travis-ci.org/ninoseki/ex_tansaku)
+[![Build Status](https://travis-ci.org/ninoseki/kanshi.svg?branch=master)](https://travis-ci.org/ninoseki/kanshi)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/kanshi/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/kanshi?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d074f4a65cb9421b941f9b69ae89d6d5)](https://www.codacy.com/app/ninoseki/kanshi)
 
